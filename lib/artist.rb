@@ -10,7 +10,6 @@ class Artist
   def initialize(name)
     @artist = name 
     @@all << self 
-  
   end 
   
   
