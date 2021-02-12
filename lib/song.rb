@@ -5,6 +5,7 @@ class Song
     @title = title 
   end 
   
-  def artist
+  def artist_name
+    artist.name if artist
   
 end 
