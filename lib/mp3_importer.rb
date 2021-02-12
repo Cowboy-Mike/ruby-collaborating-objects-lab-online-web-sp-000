@@ -1,6 +1,7 @@
 def MP3Importer
   
-  def initialize
+  def initialize(file)
+    
   end 
   
 end 
