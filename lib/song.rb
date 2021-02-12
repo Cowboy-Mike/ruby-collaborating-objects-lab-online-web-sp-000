@@ -13,7 +13,7 @@ class Song
   end 
   
   def artist_name
-    artist.artist if artist
+    artist. if artist
   end 
   
   def self.new_by_filename(name)
