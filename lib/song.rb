@@ -5,4 +5,6 @@ class Song
     @title = title 
   end 
   
+  def 
+  
 end 
