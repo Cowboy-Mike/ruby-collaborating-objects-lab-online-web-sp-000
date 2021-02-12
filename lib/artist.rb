@@ -21,6 +21,10 @@ class Artist
     
   end
   
+  def find_or_create_by_name(name)
+  end 
+  
+  
   def add_song_by_title(title)
     song = Song.new(title)
     song.artist = self 
