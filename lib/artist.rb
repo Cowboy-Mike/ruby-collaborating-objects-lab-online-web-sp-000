@@ -30,7 +30,7 @@ def self.find(name)
 end 
 
 def print_songs
-  songs.each {
+  songs.each {|song| pus song.name}
 end 
 
   
