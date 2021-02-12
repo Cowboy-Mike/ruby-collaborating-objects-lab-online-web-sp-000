@@ -29,6 +29,9 @@ def self.find(name)
   self.all.find {|artist| artist.name == name }
 end 
 
+def self.print_songs
+end 
+
   
   
   def add_song_by_title(title)
